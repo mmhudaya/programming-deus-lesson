@@ -21,6 +21,19 @@ public static void main(String args[]){
 }
 ```
 
+Cara deklarasi array semi-dinamis (sesuai input keyboard)
+```java
+import java.util.Scanner;
+
+public static void main(String[] args){
+	Scanner sc = new Scanner(System.in);
+	int panjangArray;
+	
+	panjangArray = sc.nextInt();
+	
+	int[] arr1 = new int[panjangArray]; // <-- deklarasi semi dinasmis array
+}
+```
 
 BUAT PROGRAM UNTUK MENGISI ARRAY DENGAN SYARAT
 1. Array dengan index ganjil di isi 1
